@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagar Singh Kushwaha | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="navbar" id="home">
+    <div class="nav-inner container">
+      <div class="logo">Sagar<span>.</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <div class="hero-avatar-wrap">
+          <div class="avatar-border">
+            <img src="mainphotoremove.png" alt="Profile photo of Sagar Singh Kushwaha" class="hero-avatar" />
+          </div>
+        </div>
+        <div class="hero-text">
+          <p class="hero-kicker">Software Engineer · Python · AI · Automation</p>
+          <h1 id="hero-title">Sagar Singh Kushwaha</h1>
+          <p class="hero-tagline">Building automation, AI systems, and scalable backend solutions.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Let&rsquo;s Collaborate</a>
+          </div>
+          <div class="hero-meta">
+            <p>Focus areas:</p>
+            <div class="pill-row">
+              <span class="pill">Automation Workflows</span>
+              <span class="pill">AI Integration</span>
+              <span class="pill">Backend APIs</span>
+              <span class="pill">Cloud Deployment</span>
+            </div>
+          </div>
+          <div class="hero-socials" aria-label="Social links">
+            <a href="https://github.com/sagar2525" target="_blank" rel="noreferrer" class="social-icon" aria-label="GitHub">
+              <i class="icon-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sagar-singh-kushwaha-832036245/" target="_blank" rel="noreferrer" class="social-icon" aria-label="LinkedIn">
+              <i class="icon-linkedin"></i>
+            </a>
+            <a href="mailto:sagarkushwah2510@gmail.com" class="social-icon" aria-label="Email">
+              <i class="icon-mail"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & LEADERSHIP SECTION -->
+    <section class="section section-alt" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="experience-title">Experience &amp; Leadership</h2>
+          <p>Blending hands-on development work with fintech, markets, and community building.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3>Web Developer Intern &middot; SampurnaBharat</h3>
+            <p class="project-desc">Feb 2025 &ndash; Apr 2025 &middot; Jalgaon, Maharashtra</p>
+            <ul class="project-tags">
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>REST APIs</li>
+              <li>Frontend Performance</li>
+            </ul>
+            <p class="project-brief">
+              Designed and maintained MongoDB-backed schemas and RESTful APIs, collaborated on profile, cart, and payment interfaces,
+              and optimized frontend performance through refactors and asset optimizations (25% faster loads).
+            </p>
+          </div>
+          <div class="skills-group">
+            <h3>Stock Market Analyst &middot; Fintech Club, VIT</h3>
+            <p class="project-desc">Team Lead &middot; Jul 2023 &ndash; Jun 2025</p>
+            <ul class="project-tags">
+              <li>Equities</li>
+              <li>Technical Analysis</li>
+              <li>Mentorship</li>
+            </ul>
+            <p class="project-brief">
+              Represented VIT in the National Financial Literacy Quiz finale, analyzed 50+ stock portfolios each month, and delivered
+              insights to 500+ members with around 60% trend prediction accuracy while mentoring junior analysts.
+            </p>
+          </div>
+          <div class="skills-group">
+            <h3>PR Team Member &middot; E-Cell VIT</h3>
+            <p class="project-desc">Core Member &middot; Jan 2024 &ndash; Jun 2025</p>
+            <ul class="project-tags">
+              <li>PR Campaigns</li>
+              <li>Community</li>
+              <li>Events</li>
+            </ul>
+            <p class="project-brief">
+              Directed multi-platform PR campaigns, secured sponsorships with student bodies, and led networking events for 200+ attendees,
+              increasing engagement by 45% and event funding by 20%.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-header">
+        <h2 id="projects-title">Featured Projects</h2>
+        <p>Real-world systems across audio streaming, trading automation, and applied AI.</p>
+      </div>
+      <div class="projects-grid">
+        <!-- SynchCast -->
+        <article class="project-card">
+          <div class="project-body">
+            <h3>SynchCast &mdash; Multi-Device Audio Streaming</h3>
+            <p class="project-desc">Windows app that streams system audio to multiple Bluetooth, wired, and USB devices in perfect sync.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Real-time Audio</li>
+              <li>Virtual Drivers</li>
+              <li>Windows</li>
+              <li>Automation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="project-brief">Built low-latency routing and device enumeration to deliver synchronized playback across headphones and speakers.</p>
+            <div class="project-actions">
+              <button class="btn tiny ghost details-btn" data-project="synchcast">Details</button>
+              <a href="https://github.com/sagar2525/SynchCast" target="_blank" rel="noreferrer" class="btn tiny">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Trading Automation System -->
+        <article class="project-card">
+          <div class="project-body">
+            <h3>AI-Powered Trading Automation System</h3>
+            <p class="project-desc">End-to-end trading engine that executes strategies using broker APIs with risk-aware logic.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Broker APIs</li>
+              <li>Automation</li>
+              <li>Google Cloud</li>
+              <li>Monitoring</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="project-brief">Handles live market data, entry/exit signals, stop‑loss, targets, and timeouts on a Google Cloud VM.</p>
+            <div class="project-actions">
+              <button class="btn tiny ghost details-btn" data-project="trading-automation">Details</button>
+              <a href="https://github.com/sagar2525/AI-Earnings-Sentiment-Trading" target="_blank" rel="noreferrer" class="btn tiny">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AI Drawer -->
+        <article class="project-card">
+          <div class="project-body">
+            <h3>AI Drawer &mdash; Multi-Model Prompt Router</h3>
+            <p class="project-desc">ML-driven router that dispatches user prompts to the most suitable AI model.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>scikit-learn</li>
+              <li>LLM APIs</li>
+              <li>Automation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="project-brief">Classifies intents and orchestrates ChatGPT, Gemini, DALL·E and more via modular subprocess pipelines.</p>
+            <div class="project-actions">
+              <button class="btn tiny ghost details-btn" data-project="ai-drawer">Details</button>
+              <a href="https://github.com/sagar2525/AIDrawer" target="_blank" rel="noreferrer" class="btn tiny">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mental Hood -->
+        <article class="project-card">
+          <div class="project-body">
+            <h3>Mental Hood &mdash; AI Mental Health Assistant</h3>
+            <p class="project-desc">Conversational assistant trained on psychiatrist–patient style data for empathetic guidance.</p>
+            <ul class="project-tags">
+              <li>Django</li>
+              <li>Python</li>
+              <li>LLM APIs</li>
+              <li>AI</li>
+              <li>Mental Health</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="project-brief">Combines Django backend with LLM-based emotional reasoning to support mental health journeys.</p>
+            <div class="project-actions">
+              <button class="btn tiny ghost details-btn" data-project="mental-hood">Details</button>
+              <a href="https://github.com/sagar2525/mental_health_bot" target="_blank" rel="noreferrer" class="btn tiny">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Trading Dashboard -->
+        <article class="project-card">
+          <div class="project-body">
+            <h3>Real-Time AI Trading Dashboard</h3>
+            <p class="project-desc">Interactive Streamlit dashboard streaming live prices, indicators, and AI-based trade signals.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>TensorFlow</li>
+              <li>Technical Analysis</li>
+              <li>Automation</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="project-brief">Surfaces EMA, RSI, MACD, Bollinger Bands and model predictions during market hours.</p>
+            <div class="project-actions">
+              <button class="btn tiny ghost details-btn" data-project="trading-dashboard">Details</button>
+              <a href="https://github.com/sagar2525/Trading_Algo" target="_blank" rel="noreferrer" class="btn tiny">View Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="skills-title">Skills &amp; Tooling</h2>
+          <p>Technologies I use to build reliable automation, AI, and backend systems.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3>Core Engineering</h3>
+            <div class="pill-row">
+              <span class="pill pill-strong">Python</span>
+              <span class="pill">C++</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">SQL</span>
+              <span class="pill">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skills-group">
+            <h3>AI &amp; Data</h3>
+            <div class="pill-row">
+              <span class="pill">Machine Learning</span>
+              <span class="pill">scikit-learn</span>
+              <span class="pill">Pandas</span>
+              <span class="pill">NumPy</span>
+              <span class="pill">LSTM</span>
+              <span class="pill">RAG</span>
+            </div>
+          </div>
+          <div class="skills-group">
+            <h3>Deployment &amp; DevOps</h3>
+            <div class="pill-row">
+              <span class="pill">AWS (EC2, VPC, S3)</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Git</span>
+              <span class="pill">MongoDB</span>
+              <span class="pill">n8n</span>
+              <span class="pill">Trading APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="section" id="resume" aria-labelledby="resume-title">
+      <div class="container resume-inner">
+        <div>
+          <h2 id="resume-title">Resume</h2>
+          <p>Download my resume for a concise overview of my experience, projects, and technical strengths.</p>
+          <p>Currently pursuing a B.Tech in Computer Science &amp; Engineering at Vellore Institute of Technology (expected Jul 2026, CGPA 8.57/10.0).</p>
+        </div>
+        <a href="sagar_singh_kushwaha.pdf" class="btn primary large" download>
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-title">Let&rsquo;s Build Something</h2>
+          <p>Interested in automation, AI integrations, or backend systems? Reach out with a short brief and I&rsquo;ll get back to you.</p>
+          <div class="contact-meta">
+            <p><span>Email:</span> <a href="mailto:sagarkushwah2510@gmail.com">sagarkushwah2510@gmail.com</a></p>
+            <p><span>Phone:</span> <a href="tel:+917049926442">+91 70499 26442</a></p>
+            <p><span>Location:</span> Open to remote &amp; hybrid collaborations.</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or idea" required></textarea>
+          </div>
+          <button type="submit" class="btn primary full">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Sagar Singh Kushwaha. All rights reserved.</p>
+      <p class="footer-note">Built with Python-driven thinking, shipped to the web.</p>
+    </div>
+  </footer>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="false">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
